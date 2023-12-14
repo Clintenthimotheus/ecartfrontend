@@ -1,0 +1,144 @@
+.offers {
+    display: flex;
+  
+    justify-content: space-evenly;
+    padding: 26px 20px 36px 20px; /* Adjust padding for smaller screens */
+  }
+  
+  .offers ul {
+    flex-basis: calc(33.33% - 20px); /* Adjust for smaller screens */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 20px; /* Add margin between items */
+  }
+  
+  .offers ul li:nth-child(2) {
+    color: #635e5e;
+    margin-top: 6px;
+    font-size: 11px;
+  }
+  
+  .offers ul li img {
+    height: 65px;
+  }
+  
+  
+  
+  .card-img-top {
+    padding: 1rem;
+    height: 220px;
+    transition: 1s;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  
+  h4 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: fantasy;
+  }
+  
+  h5 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+  
+  
+  }
+  
+  .scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    /* padding: 0 1rem; */
+  }
+  
+  #scroll-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  #scroll-container .col {
+    flex-basis: calc(25% - 20px); /* Adjust for smaller screens */
+    max-width: calc(25% - 20px); /* Adjust for smaller screens */
+  }
+  
+  #scroll-container .col:last-child {
+    margin-right: 0;
+  }
+  
+  #scroll-container .card {
+    margin-bottom: 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #scroll-container .col {
+      flex-basis: calc(50% - 20px); /* Adjust for smaller screens */
+      max-width: calc(50% - 20px); /* Adjust for smaller screens */
+    }
+    .offers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 26px 20px 36px 20px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #scroll-container .col {
+      flex-basis: calc(100% - 20px); /* Adjust for mobile screens */
+      max-width: calc(100% - 20px); /* Adjust for mobile screens */
+      
+    }
+    .offers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 26px 20px 36px 20px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  
+  .bankoffer img {
+    margin-top: 44px;
+    width: 100%;
+  }
+  
+  .incl {
+    color: #b3b3ac;
+    font-weight: 100;
+    font-size: 22px;
+  }
+  
+  .img-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 17px 0px 34px 0px;
+  }
+  .img-box img {
+    max-width: calc(50% - 20px); /* Adjust for smaller screens */
+    height: auto;
+  }
+  .img-box1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .img-box1 div {
+    width: calc(33.33% - 20px); /* Adjust for smaller screens */
+    margin-bottom: 20px; /* Add margin between items */
+  }
+  
+  .img-box1 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }

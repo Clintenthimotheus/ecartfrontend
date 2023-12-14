@@ -1,0 +1,190 @@
+<div class="banner">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="offers">
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/085406bae47866d5.png?q=100" alt=""></li>
+          <li>Top Offers</li>
+        </ul>
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/64f1cc66052c66ef.png?q=100" alt=""></li>
+          <li>Mobiles & Tablets</li>
+        </ul>
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/1fd83847b32a09d1.png?q=100" alt=""></li>
+          <li>Electronics</li>
+        </ul>
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/6c0716819ac55121.png?q=100" alt=""></li>
+          <li>TVs & Appliances</li>
+        </ul>
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/6dbed7ba5417672f.jpg?q=100" alt=""></li>
+          <li>Fashion</li>
+        </ul>
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/c444de48eb75d450.png?q=100" alt=""></li>
+          <li>Beauty</li>
+        </ul>
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/f9c7aaa5f5455ae7.png?q=100" alt=""></li>
+          <li>Home & Kitchen</li>
+        </ul>
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/26e11f4698473e49.png?q=100" alt=""></li>
+          <li>Furniture</li>
+        </ul>
+        <ul>
+          <li><img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/8abe0a348a71d745.png?q=100" alt=""></li>
+          <li>Flights</li>
+        </ul>
+        
+      </div>
+
+    </div>
+  </div>
+
+
+
+</div>
+<div class="container-fluid">
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner" style="width: 100%;">
+      <div class="carousel-item active">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/a2d45385904d2bfa.jpg?q=20"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/b8e07ff39439d998.jpg?q=20"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/7e6f7f22ab2b746f.jpg?q=20"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/9205f853c6d976be.jpg?q=20"
+          class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="bankoffer">
+      <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/140/image/065bf4ed0fee4532.jpg?q=20" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- banner closeing-->
+
+
+<section class="py-5">
+  <div class="container-fluid px-4 px-lg-5 mt-5">
+    <h1 style="font-size: 1.9rem; color: #898783;    margin-top: 2rem; ">Top Deals</h1>
+    <div class="scroll-container">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="scroll-container">
+      <div class="col mb-5" *ngFor="let product of allproducts|filter:searchKey:'title'">
+        <div class="card h-100" routerLink="view-product/{{product.id}}">
+    
+          <img class="card-img-top" style="height: 220px;" [src]="product.image" alt="..." />
+      
+          <div class="card-body p-4">
+            <div class="text-center">
+   
+              <h5>{{product.title}}</h5>
+   
+              <div class="incl">Incl of offers</div>
+            </div>
+          </div>
+          
+       
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<div class="container-fluid ">
+  <div class="row">
+    <div class="img-box">
+      <img src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/19bc292770c054a9.jpg?q=20" alt="">
+      <img src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/091151b16baabe39.png?q=20" alt="">
+      <img src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/eabf4635dc528037.jpg?q=20" alt="">
+    </div>
+  </div>
+</div>
+
+
+<section class="py-5">
+  <div class="container-fluid px-4 px-lg-5 mt-5">
+    <h1 style="font-size: 1.9rem; color: #898783;    margin-top: 2rem; ">Top Deals</h1>
+    <div class="scroll-containers">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="scroll-containers">
+      <div class="col mb-5" *ngFor="let products of allproducts">
+        <div class="card h-100" routerLink="view-product/{{products.id}}">
+          <!-- Product image-->
+          <img class="card-img-top" style="height: 220px;" [src]="products.image" alt="..." />
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5>{{products.title}}</h5>
+              <!-- Product price-->
+              <div class="incl">Incl of offers</div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <h1 style="font-size: 1.9rem; color: #898783;">Top Deals</h1>
+    <div class="img-box1">
+      <div>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/450/280/image/2f9e8330e9322593.jpeg?q=20" alt="">
+       
+      </div>
+      <div>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/450/280/image/11179a79ad3f0768.jpeg?q=20" alt="">
+   
+      </div>
+      <div>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/450/280/image/2074db69dcf43251.jpeg?q=20" alt="">
+    
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="img-box" style="margin-top: 8rem;">
+      <img src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/1548919db25118af.jpg?q=20" alt="">
+      <img src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/7d71ea2aabc2441f.png?q=20" alt="">
+      <img src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/7d71ea2aabc2441f.png?q=20" alt="">
+    </div>
+  </div>
+</div>

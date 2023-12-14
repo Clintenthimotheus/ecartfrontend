@@ -1,0 +1,96 @@
+.card{
+    height: 550px;
+    width: 260px;
+}
+img{
+    height: 250px;
+}
+
+@media screen and (min-width:200px) and (max-width:281px){
+  
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin-left: -20px;
+    }
+}
+
+
+@media screen and (min-width:280px) and (max-width:320px){
+
+    .row{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:321px) and (max-width:360px){
+    
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin-left: -40px;
+    }
+
+
+    
+}
+
+@media screen and (min-width:360px) and (max-width:375px){
+   
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:390px){
+  
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:394px){
+   
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width:394px) and (max-width:415px){
+    
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin-left: 48px;
+    }
+}
+
+@media screen and (min-width:415px) and (max-width:425px){
+  
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin-left: 48px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:430px){
+  
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin-left: 48px;
+    }
+}

@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid px-4 px-lg-5">
+        <a class="navbar-brand text-white" routerLink="">
+            <img class="img-nav" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ms-5 navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input (keyup)="search($event)" type="text" placeholder="Search by Item name" class="form-control">
+            </ul>
+            <form class="d-flex">
+                <button class="btn btn-outline-success me-3 me-lg-5" type="submit" routerLink="products/wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    Wishlist
+                </button>
+                <button class="btn btn-outline-success me-3 me-lg-5" type="submit" routerLink="products/cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                    <span class="badge bg-dark text-white ms-1 rounded-pill">{{cartCountValue}}</span>
+                </button>
+                
+            </form>
+        </div>
+    </div>
+</nav>

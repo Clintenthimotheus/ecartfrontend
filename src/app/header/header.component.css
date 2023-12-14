@@ -1,0 +1,38 @@
+ul i{
+  font-size: 26px;
+  background-color: rgb(240, 240, 242);
+  border-radius: 26px 0px 0px 24px;
+  padding: 1rem;
+  color: rgb(102, 102, 102);
+  height: 53px;
+  margin-top: 7px;
+}
+input{
+  width: 52rem;
+  border: none;
+  height: 54px;
+  margin-top: 7px;
+  background-color: rgb(240, 240, 242);
+  border-radius: 0px 14px 16px 0px;
+}
+input:hover{
+  border: none;
+}
+.fa-ellipsis-vertical{
+  font-size: 30px;
+  padding: 0rem;
+  margin: 4px 0 6px 30px;
+}
+@media (max-width: 991px) {
+  ul.navbar-nav {
+      display: none;
+  }
+
+  .navbar-collapse {
+      justify-content: flex-end;
+  }
+
+  .navbar-toggler {
+      display: block;
+  }
+}

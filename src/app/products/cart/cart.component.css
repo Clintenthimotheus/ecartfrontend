@@ -1,0 +1,74 @@
+/* Responsive styles for cart table */
+.container {
+    padding: 0 15px;
+  }
+  
+  .table {
+    border: none;
+
+  }
+  
+  .table th, .table td {
+    padding: 0.5rem; /* Adjust as needed for better mobile view */
+    vertical-align: middle;
+  }
+  
+  
+  
+  /* Responsive styles for summary section */
+  .col {
+    padding: 15px;
+    height: auto;
+  }
+  
+
+  
+  /* Responsive styles for modal */
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .form-floating {
+    margin-bottom: 1rem;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .table thead {
+      display: none;
+    }
+    
+    .table tbody, .table tr, .table td {
+      display: block;
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px solid #dee2e6;
+    }
+    
+    .table tr {
+      margin-bottom: 15px;
+    }
+    
+    .table td {
+      position: relative;
+     
+      text-align: left;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .table td:before {
+      position: absolute;
+      top: 0;
+      left: 5px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+      content: attr(data-label);
+    }
+    .form-control{
+        padding-left: 1rem;
+    }
+  }
+  
